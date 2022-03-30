@@ -1,0 +1,191 @@
+body{
+    margin:0px 30px;
+    padding:0px;
+}
+.top1{
+    
+    width: 50%;
+    background-color:rgb(206, 143, 143);
+    float: left;
+    position:sticky ;
+    top:0;
+}
+.top1 a{
+    padding: 30px 30px;
+    display: inline-block;
+    font-size: 20px;
+}
+.top2{
+    width: 50%;
+    background-color: rgb(206, 143, 143);
+    float:left;
+    position: sticky;
+    top: 0;
+}
+.ul{
+    margin: 0px;
+    padding:0px;
+    list-style-type: none;
+
+}
+ul li{
+    float: left;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 30px 30px;
+    color: black;
+    display: inline-block;
+}
+.btn{
+    background-color:rgb(98, 145, 104);
+    display: inline-block;
+    padding:8px 38px ;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.btn a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.ul li a:hover {
+    background-color:rgb(160, 135, 135);
+    border-radius: 10px;   
+}
+/*navigation end*/
+.sec1{
+    width: 50%;
+    font-family:arial;
+    float: left;
+}
+.secA{
+    margin-top: 39%;
+    padding: 0px 115px;
+}
+.paragraph{
+    padding: 0px 115px;
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+.sec2{
+    float: left;
+    width: 50%;
+}
+
+.max{
+    padding: 7px;
+    margin-bottom: 91px;
+    margin-left: 109px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.max a{
+    width: 3;
+    text-decoration: none;
+    color: black;
+}
+.max2{
+    background-color: rgb(231, 219, 219);
+    border-radius: 5px;
+}
+.max2 a{
+    color: black;
+    padding: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+/*section1,2 end*/
+.sec3{
+    
+    margin: auto;
+}
+.demos1{
+    text-align: center;
+    padding: 13px;
+}
+
+.demos{
+    font-family:arial;
+    text-align: center;
+    padding: 5px;
+}
+.pro{
+    font-family:arial;
+    text-align: center;
+    margin: 0px 308px 100px;
+}
+.card{
+
+    
+    width: 30%;
+    float: left;
+    margin: 8px;
+    padding: 10px;
+}
+.card h6{
+    font-size:1rem;
+	font-family:arial;
+	text-align:center;
+	padding: 0px;
+    margin: 11px;
+}
+.img{
+    width: 100%;
+}
+/*end section 3*/
+.novan{
+color: brown;
+background-color: blue;
+}
+.section4{
+    text-align: center;
+
+}
+.inner-page {
+    font-family: arial;
+    text-align: center;
+    margin: 0px;
+    padding: 69px 0px 0px;
+}
+
+.group{
+    font-family:arial;
+    margin: 0px 273px 76px;
+    padding: 0px 9px;
+    text-align: center;
+}
+/*end section4*/
+.sin{
+    display: block;
+}
+.sec5{
+    height: 172px;
+    width: 30%;
+    float: left;
+    margin: 8px;
+    padding: 10px;
+}
+.list {
+    list-style-type: none;
+}
+.sec5 h3{
+    font-family: arial;
+}
+.sec5 a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+}
+
+/*section 5 end*/
+.magar{
+    background-color: red;
+}
+.mohin{
+    background-color: blue;
+}
