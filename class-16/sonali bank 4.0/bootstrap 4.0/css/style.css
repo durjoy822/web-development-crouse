@@ -1,0 +1,371 @@
+/*****header banner start******/
+#color{
+    background-color: #00189d;
+}
+img {
+    height: 6em;
+    vertical-align: -18px;
+    border-style: none;
+}
+.site-title {
+    color: #ffffff;
+    padding: 17px 0;
+    text-align: center;
+    display: inline-block;
+}
+.tag-line{
+    font-size: 12px;
+}
+.site-title{
+    text-align: justify;
+}
+.col-sm-11{
+    padding: 0px;
+}
+.col-sm-1{
+    padding: 0px;
+}
+.card-img-top {
+    width: 70%;
+}
+.card-body{
+    font-size: 9px;
+    padding: 0px 20px;
+    padding-top: 6px;
+    font-weight: 600;
+}
+.updated p{
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    color:white;   
+}
+
+/*******header banner end********/
+
+
+/*******Navigation start here*******/
+
+ .navbar {
+    height: 4em;
+    background: #00189d;
+    border: 1px solid black;
+}
+navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.nav-item:hover{
+    background: #CD9935;
+}
+.dropdown-item:hover{
+    background-color: #CD9935;
+    color: white;
+}
+.dropdown-menu{
+    background-color: aqua;
+}
+.dropdown-item{
+    font-size: 13px;
+}
+/*******Navitation end Here********/
+
+/*******Message start here********/
+
+.ticker{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+}
+.news{
+    width: 80%;
+    
+    padding: 0 2%;
+    margin-bottom: auto;
+}
+.title{
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    background: #b3b3dd;
+    position: relative;
+}
+.title h5{
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+.effect{
+    margin-top: 1px 0px;
+    margin-bottom: 0px;
+}
+/*******Message end here*******/
+/*******left side start here*******/
+
+ .col-4 ,.col-8{
+ background:white;
+ padding-left: 0px;
+}
+.col-8{
+    padding-right: 0px;
+}
+.current{
+    background-color:rgb(247, 131, 89);
+    color: white;
+    text-align: center;
+    margin: 7px 0px;
+    border: 1px solid gray;
+}
+
+
+.call{
+    border: 1px solid gray;
+    position: relative;
+    margin: 0px;
+}
+.news-ticker{
+    
+    box-sizing: content-box;
+    height: 13em;
+    overflow: hidden;
+    padding: 5px 10px 10px 10px ;
+}
+.news-ticker ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    margin: 6px 6px;
+    list-style-type:none;
+    animation: ticker 12s infinite;
+    animation-timing-function: cubic-bezier(1,0,5,0);
+}
+.news-ticker ul li{
+    border-bottom: 2px solid gray;
+}
+@keyframes ticker {
+    0%{
+        margin-top: 0;
+    }
+    20%{
+        margin-top: -29px;
+    }
+    40%{
+        margin-top: -56px;
+    }
+    65%{
+        margin-top: -84px;
+    }
+    85%{
+        margin-top: -110px;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+
+.news-ticker ul:hover{
+    animation-play-state: paused;
+}
+.carousel-inner{
+    height: 30em;
+    border: 2px solid gray;
+}
+.carousel-item{
+    height: 30em;
+}
+.roza{
+    color: white;
+    font-weight: bold;
+    padding: 5px 0px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 7px 0px ;
+    background-color:rgb(247, 131, 89) ;
+}
+.iftar{
+    background-color:#ddd;
+}
+.iftar p{
+    text-align: center;
+}
+.seven {
+    background-color: burlywood;
+    text-align: center ;
+   ;
+   margin-bottom: 0px;
+   border-radius: 10px;
+}
+.time{
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+.fly{
+    color: white;
+    font-weight: bold;
+    background-color:rgb(247, 131, 89) ;
+    padding: 5px 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+.left-menu-item{
+    line-height: 0px;
+}
+.left-menu-item>ul>li{
+    text-decoration: none;
+    list-style-type: none;
+}
+ li{
+     text-decoration: none;
+ } 
+ 
+ .left-menu-box{
+     background-color: rgb(247, 131, 89) ;
+     border: 2px solid gray;
+     text-align: center;
+     padding: 5px 0px;
+     margin: 7px 0px;
+     font-weight: bold;
+     color: white;
+ }
+
+.left-menu-item ul {
+    padding-left: 2px;
+}
+.left-menu-item ul li a{
+    text-decoration: none;
+}
+
+.suborno img{
+    height: 9em;   
+}
+#img{
+    height: 16px;
+    align-items: center;
+    margin-bottom: 17px;
+}
+#mango{
+   height: 4em;
+}
+#man{
+    height: 7em;
+}
+/*******left side end here*******/
+/*******right side start here*******/
+#scroll{
+    width: 100%;
+    height: 1500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+ #quick{
+     margin-left: 0px;
+     background-color: white;
+ }
+ #col4{
+    
+     margin: 5px;
+     border: 1px solid black;
+ }
+ .national{
+     margin-top: 6px;
+     background-color:#ddd;
+ }
+ .service ul {
+     list-style: square;
+ }
+ .service ul li a{
+     color: black;
+     text-decoration: none;
+ }
+ #col4:hover{
+     background-color: rgba(41, 178, 143, 0.18);
+     box-shadow: 1px 1px 1px #706363;
+     box-shadow: 1px 1px 1px #706363;
+    
+ }
+ #sonali{
+     margin-top: 3em;
+ }
+ #mobile{
+     padding: 2em;
+     margin: 1em;
+    background-color: #ddd;
+    font-weight: 600;
+    font-size: large;
+ }
+ .database{
+     margin-top: 8em;
+ }
+ .base li{
+     list-style-type: none;
+ }
+ .base{
+     padding: 0px;
+     font-weight: 600;
+     
+ }
+ .base a{
+     color: black;
+    text-decoration: none;    
+ }
+ /*******right side end  here*******/
+ /*******top footer start here*******/
+.footer-top{
+    margin-top: 3px;
+    background: #222222;
+}
+.left-menu-item{
+    border: 1px solid blue;
+}
+#mox{
+    padding: 0px;
+}
+#item{
+    font-size: 15px;
+}
+#item ul li img{
+    margin-bottom: 16px;
+}
+#img2{
+    height: 13px;
+    margin-bottom: 16px;
+}
+#item2 ul li a{
+    color: #20A1CB;
+    margin-top: 5px;
+    
+}
+.left-menu-item ul {
+    margin-bottom: 0px;
+    padding-left: 2px
+}
+address{
+    margin-top: 9em;
+    color: #20A1CB;
+    text-align: center;
+    font-size: 12px;
+}
+/*******top footer end here*******/
+/*******bottom footer start here*******/
+#bottom-footer{
+    border-top: 1px solid gray;
+    padding: 0px;
+}
+.bottom-footer-item{
+    padding: 0px;
+    background-color: black;
+}
+.footer-item{
+    color: blue;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
