@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ .max{
+    background-color: red;
+    background-image: url('img/Rectangle\ 9.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} 
+.bg_height{
+    height: 100vh;
+    background:  linear-gradient(195.09deg, rgba(161, 186, 18, 0.8) -2.85%, rgba(2, 146, 148, 0.8) 101.73%);
+}
+ .content {
+    width: 6em;
+   margin-left: 18vw;
+    margin-top: 3em; 
+} 
+.font{
+    font-weight: bold;
+    font-size: 2em;
+    color: #ffffff;
+}
+.text-center{
+    color: #ffffff;
+}
+.mango {
+   margin-top: 2vh;
+    bottom: 35px;
+    padding: 0em 10em;
+    position: relative;
+}
+.max_img {
+    position: relative;
+    margin-left: 8em;
+    top: 1em;
+}
+/* .form-group{
+    margin-left: 6em;
+}
+ .form-control{
+    margin-left:4px;
+ }
+  .user {
+    height: 21px;
+    left: 10px;
+    position: relative;
+    bottom: 34px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 1.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 6rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.form-group{
+    margin-bottom: -1rem;
+}
+.eye {
+    left: 21em;
+    position: relative;
+    bottom: 2em;
+} */
+.all_form{
+    position: relative;
+    margin-left: 10vw;
+}
+.relativ {
+    height: 3vh;
+    bottom: 5vh;
+    position: relative;
+    margin-left: 5px;
+}
+.form-control{
+    position: relative;
+    padding: 0.375rem 1.75rem;
+    border-radius: 2.25rem;
+}
+.hex{
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 1em;
+}
+.eye {
+    margin-right: 1vw;
+    text-align: right;      
+    position: relative;
+    bottom: 52px;
+}
+.hourse{
+    margin-left: 3vw;
+}
+.form-check {
+    position: relative;
+    margin-left: 0vw;
+    bottom: 2em;
+}
+.form-check-label{
+    color: #ffffff;
+}
+.primary {
+    width: 25vw;
+    border-radius: 10px;
+    height: 37px;
+}
+.pix{
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.6);
+    margin-bottom: 4px;
+    color: #029294;
+}
+.mark{
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
